@@ -19,8 +19,8 @@ class Student extends Person {
 		
 	}
 	study(){
-		console.log(name, "is studying")
-		return
+		console.log(this.name, "is studying")
+		return;
 	}
 }
 
@@ -29,7 +29,7 @@ class Teacher extends Person {
 		super(name, age)
 	}
 	teach(){
-		console.log(name, "is teaching")
+		console.log(this.name, "is teaching")
 	}
 }
 
