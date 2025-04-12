@@ -9,7 +9,7 @@ class Person {
 	}
 	setAge(newage){
 		this.age = newage;
-		return;
+		
 	}
 }
 
